@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Scout Research Digest</title>
+<meta name="description" content="Weekly operator research for builders who ship. Ranked opportunities, scores, first-sale paths. $19/mo."/>
+<style>
+  :root{--bg:#060a10;--card:#0b1220;--line:#1c2a3f;--text:#e8eef8;--muted:#8fa3bf;--dim:#5b6f8a;--cyan:#22d3ee;--cyan2:#0891b2;--lime:#a3e635;--glow:rgba(34,211,238,.16)}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1000px 500px at 80% -20%,#0a2230 0%,var(--bg) 50%);color:var(--text);font-family:Inter,system-ui,Helvetica,Arial,sans-serif;line-height:1.55}
+  .wrap{max-width:900px;margin:0 auto;padding:40px 22px 96px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:36px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:14px}
+  .mark{width:44px;height:44px;border-radius:12px;background:linear-gradient(145deg,var(--cyan2),var(--cyan));display:grid;place-items:center;font-family:ui-monospace,Menlo,monospace;font-weight:800;color:#031018;font-size:14px;box-shadow:0 0 40px var(--glow)}
+  h1{font-size:20px;letter-spacing:.08em;margin:0}
+  .sub{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);margin-top:3px}
+  .live{font-family:ui-monospace,Menlo,monospace;font-size:11px;padding:6px 12px;border-radius:999px;border:1px solid var(--cyan2);color:var(--cyan);background:rgba(34,211,238,.08)}
+  .hero h2{font-size:clamp(30px,5vw,46px);line-height:1.08;margin:0 0 14px;letter-spacing:-.02em}
+  .hero h2 em{font-style:normal;color:var(--cyan)}
+  .hero p{color:var(--muted);font-size:16px;max-width:560px;margin:0}
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:28px 0}
+  .btn{display:inline-flex;background:linear-gradient(135deg,var(--cyan2),var(--cyan));color:#031018;font-weight:700;text-decoration:none;padding:14px 22px;border-radius:12px;font-size:15px;box-shadow:0 8px 32px var(--glow)}
+  .btn.ghost{background:transparent;color:var(--cyan);border:1px solid var(--line);box-shadow:none}
+  .price{font-family:ui-monospace,Menlo,monospace;color:var(--muted);font-size:13px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:8px 0 28px}
+  @media(max-width:700px){.grid{grid-template-columns:1fr 1fr}}
+  .metric{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center}
+  .metric b{display:block;font-family:ui-monospace,Menlo,monospace;font-size:22px;color:var(--cyan)}
+  .metric span{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:14px}
+  .card h3{margin:0 0 8px;font-size:15px}
+  .meta{font-size:12px;color:var(--dim);font-family:ui-monospace,Menlo,monospace}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;color:var(--dim);font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:8px 6px;border-bottom:1px solid var(--line)}
+  td{padding:12px 6px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--muted)}
+  td strong{color:var(--text);font-weight:600}
+  .score{font-family:ui-monospace,Menlo,monospace;color:var(--lime)}
+  .rank{font-family:ui-monospace,Menlo,monospace;color:var(--cyan)}
+  footer{margin-top:40px;font-size:12px;color:var(--dim);line-height:1.7}
+  a{color:var(--cyan);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="mark">SC</div>
+      <div>
+        <h1>SCOUT RESEARCH DIGEST</h1>
+        <div class="sub">Weekly operator research · email delivery</div>
+      </div>
+    </div>
+    <span class="live">LIVE · ISSUE #001</span>
+  </header>
+
+  <section class="hero">
+    <h2>Ranked opportunities.<br/><em>First-sale paths.</em> No fluff.</h2>
+    <p>Every week Scout scores ideas 1–5 on Pain, Pay, Build, Comp weakness, and Reach — then tells you how to land the first dollar. Built for operators who ship.</p>
+    <div class="cta-row">
+      <a class="btn" href="https://buy.stripe.com/5kQ8wPgE78xRgPn8o4bwk0b">Subscribe · $19/mo</a>
+      <a class="btn ghost" href="issues/001.html">Preview Issue #001</a>
+      <span class="price">cancel anytime · Stripe</span>
+    </div>
+  </section>
+
+  <div class="grid">
+    <div class="metric"><b>1</b><span>Issues shipped</span></div>
+    <div class="metric"><b>5</b><span>Ranked this week</span></div>
+    <div class="metric"><b>/25</b><span>Score model</span></div>
+    <div class="metric"><b>$19</b><span>Per month</span></div>
+  </div>
+
+  <div class="card" style="overflow-x:auto">
+    <h3>Issue #001 preview · Oct 28, 2026</h3>
+    <p class="meta" style="margin:0 0 12px">America/New_York · public comps only · research, not advice</p>
+    <table>
+      <thead><tr><th>#</th><th>Opportunity</th><th>Score</th><th>First-sale path</th></tr></thead>
+      <tbody>
+        <tr><td class="rank">01</td><td><strong>JUCE plugin finish / UI / ports</strong><br/>$300–500 spike → $2.5–3k finish</td><td class="score">21/25</td><td>DM open JUCE Jobs with portfolio</td></tr>
+        <tr><td class="rank">02</td><td><strong>Grok Bot / AI agent setup</strong><br/>$1.5k starter package</td><td class="score">19/25</td><td>Loom demo + fixed catalog offer</td></tr>
+        <tr><td class="rank">03</td><td><strong>Trading alert bots</strong><br/>$200–600 tiers · alerts only</td><td class="score">18/25</td><td>TradingView → Discord 48h package</td></tr>
+        <tr><td class="rank">04</td><td><strong>Stripe ↔ Supabase fixes</strong><br/>$250–500 / 48h</td><td class="score">18/25</td><td>Reply to live hiring posts same day</td></tr>
+        <tr><td class="rank">05</td><td><strong>Landing + Stripe Checkout</strong><br/>$500–1.5k / 3–5 days</td><td class="score">17/25</td><td>Fixed $750 quote with demos</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>What you get</h3>
+    <p style="color:var(--muted);margin:0;font-size:14px">Full scored list · competitor notes · parked ideas · Cabal board watch · method footnotes. Delivered by email to paid subscribers. Sample issue is public; weekly depth is for members.</p>
+  </div>
+
+  <footer>
+    Scout Research Digest · Exponet Labs · Research only — not financial, legal, or career advice.<br/>
+    Sources cited in each issue. Cancel from your Stripe receipt anytime.
+  </footer>
+</div>
+</body>
+</html>
